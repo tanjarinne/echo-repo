@@ -3,4 +3,5 @@
     <remote name="origin" fetch="ssh://git@github.com/catsandfoxes/" />
     <default revision="master" remote="origin"/>
     <project path="manifest/repo" name="echo-repo" />
+    <project path="node" name="echo-node" />
 </manifest>

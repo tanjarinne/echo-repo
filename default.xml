@@ -5,4 +5,5 @@
     <project path="manifest/repo" name="echo-repo" />
     <project path="node" name="echo-node" />
     <project path="elixir" name="echo-elixir" />
+    <project path="crystal" name="echo-crystal" />
 </manifest>

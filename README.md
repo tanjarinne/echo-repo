@@ -1,5 +1,5 @@
 <h1 align="center">Echo</h1>
-<div>
+<div align="center">
     <i>Echo is a service that responds with any header or body you send over, as-is.</i>
 </div>
 
@@ -39,7 +39,7 @@ $ brew install repo
 
 ## Cloning (initialising in `repo` terms)
 
-`repo init` follow the same structure than `git clone`:
+`repo init` follows the same structure than `git clone`:
 
 ```bash
 $ repo init -u git@github.com:catsandfoxes/echo-repo.git echo

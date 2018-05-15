@@ -50,7 +50,7 @@ Fetching project echo-repo
 
 ```
 
-This will create an `echo` folder and initialise Repo within, the afterwards `repo sync` will fetch the latest change on each repository.
+This will create an `echo` folder and initialise Repo within, then, afterwards, `repo sync` will fetch the latest change on each repository.
 
 
 ## Common operations

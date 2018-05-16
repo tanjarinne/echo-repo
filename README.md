@@ -14,7 +14,7 @@ That arises a problem of maintainability as its complexity grows as many languag
 
 ## Enter `repo`
 
-[Android's Repo](https://source.android.com/setup/develop/#repo) solves that problem by providing a command line tool that aggregates git repositories allowing to handle them as they were a single one.
+[Android's Repo](https://source.android.com/setup/develop/#repo) solves that problem by providing a command line tool that aggregates git repositories in an xml document, allowing to handle them in groups as they were a single one.
 
 It comes with caveats though.
 
@@ -51,7 +51,7 @@ Fetching project echo-repo
 
 ```
 
-This will create an `echo` folder and initialise Repo within, then, afterwards, `repo sync` will fetch the latest change on each repository.
+This will create an `echo` folder, fetch the xml manifest from this repository and initialise Repo within, then, afterwards, `repo sync` will fetch the latest change from each repository into their own folder.
 
 
 ## Common operations

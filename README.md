@@ -12,7 +12,7 @@ Echo is written in several different programming languages, each tracked in a se
 
 That arises a problem of maintainability as its complexity grows as many languages are used.
 
-## Enter `repo`
+<p align="center">Enter <code>repo</code>.</p>
 
 [Android's Repo](https://source.android.com/setup/develop/#repo) solves that problem by providing a command line tool that aggregates git repositories in an xml document, allowing to handle them in groups as they were a single one.
 

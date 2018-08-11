@@ -37,6 +37,7 @@ $ brew install repo
 | Repository | Language |
 |-|-|
 | [`echo-crystal`](https://github.com/catsandfoxes/echo-crystal) | [Crystal](https://crystal-lang.org/) |
+| [`echo-crystal`](https://github.com/catsandfoxes/echo-python) | Python 3+ |
 
 ## Cloning (initialising in `repo` terms)
 

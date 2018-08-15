@@ -44,8 +44,9 @@ $ brew install repo
 `repo init` follows the same structure than `git clone`:
 
 ```bash
+$ mkdir echo
+$ cd $_
 $ repo init -u git@github.com:catsandfoxes/echo-repo.git echo
-$ cd echo
 $ repo sync
 Fetching project echo-repo
 ...

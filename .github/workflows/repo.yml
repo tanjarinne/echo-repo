@@ -11,8 +11,7 @@ jobs:
     steps:
       - name: Dependencies
         run: sudo apt-get install python3-setuptools -y
-      - uses: actions/checkout@v2
-        name: Init echo manifest
+      - name: Init echo manifest
         run: |
           python3 -m pip install repo
           cd $(mktemp -d)

@@ -1,5 +1,8 @@
 name: Repo check
-on: pull_request
+on:
+  pull_request:
+    paths:
+      - '**.xml'
 
 jobs:
   check:

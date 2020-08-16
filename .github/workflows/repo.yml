@@ -17,4 +17,5 @@ jobs:
         run: |
           python3 -m pip install repo
           cd $(mktemp -d)
+          repo init -h
 

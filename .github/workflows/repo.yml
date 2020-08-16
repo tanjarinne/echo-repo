@@ -1,0 +1,21 @@
+name: Repo check
+on:
+  pull_request:
+    paths:
+      - '**.xml'
+
+jobs:
+  check:
+    name: Verify manifests healthiness
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dependencies
+        run: |
+          sudo apt-get install python3-setuptools -y
+          python3 -m pip install wheel
+      - name: Init echo manifest
+        run: |
+          pip3 install repo
+          cd $(mktemp -d)
+          repo init -h
+

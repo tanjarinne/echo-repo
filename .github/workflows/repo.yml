@@ -15,7 +15,7 @@ jobs:
           python3 -m pip install wheel
       - name: Init echo manifest
         run: |
-          python3 -m pip install repo
+          pip3 install repo
           cd $(mktemp -d)
           repo init -h
 

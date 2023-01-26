@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="ssh://git@github.com/catsandfoxes/" />
-    <default revision="master" remote="origin"/>
-    <project path="manifest/repo" name="echo-repo" />
+    <default revision="main" remote="origin"/>
+    <remote name="origin" fetch="ssh://git@github.com/tanjarinne/" />
+    
     <project path="node" name="echo-node" />
     <project path="elixir" name="echo-elixir" />
     <project path="crystal" name="echo-crystal" />
